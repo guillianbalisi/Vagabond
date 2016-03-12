@@ -1,0 +1,34 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EFC42C8331C8A67821CFD3B58B98C8A2D5F82766",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EFC42C8331C8A67821CFD3B58B98C8A2D5F82766" : 0,
+    "97603AB76853703C83BD018424E6DBA7AE1FC705" : 0
+  },
+<<<<<<< HEAD
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0FEC6A36-6268-4E9C-9373-EA5E4DE51B90",
+=======
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5826CCE5-7526-4FFD-8120-AB9F187D3495",
+>>>>>>> 69a0494c928298597a98406ed89e40e5636588aa
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EFC42C8331C8A67821CFD3B58B98C8A2D5F82766" : "spartahacks\/",
+    "97603AB76853703C83BD018424E6DBA7AE1FC705" : "clarifai-ios-starter\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Sparta",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Sparta\/Sparta.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Clarifai\/clarifai-ios-starter.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "97603AB76853703C83BD018424E6DBA7AE1FC705"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pjmc-oliveira\/spartahacks.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EFC42C8331C8A67821CFD3B58B98C8A2D5F82766"
+    }
+  ]
+}

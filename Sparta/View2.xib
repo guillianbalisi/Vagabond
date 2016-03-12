@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15A282b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="View2" customModule="Sparta" customModuleProvider="target">
+            <connections>
+                <outlet property="cameraView" destination="KhO-3T-9HV" id="yVN-dL-AZh"/>
+                <outlet property="tempImageView" destination="iAp-tz-qZF" id="sCb-WD-3Zl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KhO-3T-9HV">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iAp-tz-qZF">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="KhO-3T-9HV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="CqS-Ir-aZf"/>
+                <constraint firstItem="iAp-tz-qZF" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="HFg-W8-T80"/>
+                <constraint firstAttribute="trailing" secondItem="KhO-3T-9HV" secondAttribute="trailing" id="Nqm-bY-6QN"/>
+                <constraint firstItem="KhO-3T-9HV" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="OM3-lm-E2B"/>
+                <constraint firstItem="iAp-tz-qZF" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="UcG-ZV-QiX"/>
+                <constraint firstItem="iAp-tz-qZF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bmz-tv-gLI"/>
+                <constraint firstAttribute="bottom" secondItem="iAp-tz-qZF" secondAttribute="bottom" id="clA-bX-8ZN"/>
+                <constraint firstAttribute="trailing" secondItem="iAp-tz-qZF" secondAttribute="trailing" id="g9S-4H-QwX"/>
+                <constraint firstItem="iAp-tz-qZF" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="hhO-l1-uZ8"/>
+                <constraint firstAttribute="bottom" secondItem="KhO-3T-9HV" secondAttribute="bottom" id="mf6-HH-RgV"/>
+                <constraint firstItem="KhO-3T-9HV" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="q4Y-Lf-8zV"/>
+                <constraint firstItem="KhO-3T-9HV" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="wpK-fi-lLi"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
